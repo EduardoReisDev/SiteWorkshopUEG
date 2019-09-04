@@ -95,6 +95,16 @@ header{
     padding-top: 80px;
 }
 
+.final{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.final-titulo{
+    font-size: 90px;
+}
+
 .rodape{
     color:#978B7A;
     margin-top: 100px;
