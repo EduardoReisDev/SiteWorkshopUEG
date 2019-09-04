@@ -142,10 +142,42 @@
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col-4">
-                    <a>XIV Workshop UEG</a>
+                    <!--maps-->
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var uluru = {lat: -16.0177673, lng: -49.785552};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 15,
+                                center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                        }
+                    </script>
+                    <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgSy1Dyh2pdDEfOCR1iXnAYg9LOWV87eI&callback=initMap">
+                    </script>
+                    <!--maps-->
                 </div>
                 <div class="col-4">
-                    <a style="color: #978B7A" >Galeria</a>   |   <a style="color:#978B7A" >Login</a>   |   <a style="color: #978B7A"> Cadastre-se</a>
+                    <div>
+                        <a style="color: #978B7A" ><img src="img/instagram.png" class="img-rodape">&nbsp;&nbsp;Instagram</a>
+                    </div>
+                    <div>
+                        <a style="color: #978B7A" ><img src="img/facebook.png" class="img-rodape">&nbsp;&nbsp;Facebook</a>
+                    </div>
+                    <div>
+                        <a style="color: #978B7A" ><img src="img/whatsapp.png" class="img-rodape">&nbsp;&nbsp;(62) 99323-2527</a>
+                    </div>
+                    <div>
+                        <a style="color: #978B7A" ><img src="img/email.png" class="img-rodape">&nbsp;&nbsp;xivworkshopueg@gmail.com</a>
+                    </div>
+                    <div>
+                        <a style="color: #978B7A" ><img src="img/github.png" class="img-rodape">&nbsp;&nbsp;OpenSource Code</a>
+                    </div>
                 </div>
             </div>
         </div>

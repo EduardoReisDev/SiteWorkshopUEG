@@ -101,7 +101,16 @@ header{
 	padding-top: 30px;
 	padding-bottom: 30px;
     background-color:#2C2A2B;
-    text-align: center;
+}
+
+#map {
+    height: 230px;
+    width: 530px;
+}
+
+.img-rodape{
+    width: 30px;
+    padding-bottom: 15px;
 }
 
 .rodape-down{
